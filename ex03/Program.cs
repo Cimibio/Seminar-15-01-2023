@@ -27,3 +27,16 @@ Console.WriteLine((num - num%10000) / 10000);
 
 if (((num / 10000) == num%10) && (((num%10000 - num%1000) / 1000) == ((num%100 - num%10) / 10))) Console.Write("число является полиндромом");
 else Console.Write("число НЕ является полиндромом");
+
+//Console.Write("Ведите число: ");
+//int number = int.Parse(Console.ReadLine());
+//int mod = 0;
+//int newmod = 0;
+//int i=0;
+//for(i= number;number!=0;number=number/10)
+//{
+//    mod = number % 10;
+//    newmod = newmod*10 + mod;
+//}
+//if(i == newmod) Console.WriteLine("Число палиндром");
+//else Console.WriteLine("число не является палиндромом");
