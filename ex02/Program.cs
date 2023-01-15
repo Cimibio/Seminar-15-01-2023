@@ -17,11 +17,11 @@ if (X > 0 && Y > 0)
 {
    Console.WriteLine("Первая четверть"); 
 }
-else if (X > 0 & Y < 0)
+else if (X > 0 && Y < 0)
 {
    Console.WriteLine("Четвертая четверть"); 
 }
-else if (X < 0 & Y > 0)
+else if (X < 0 && Y > 0)
 {
    Console.WriteLine("Вторая четверть"); 
 }
