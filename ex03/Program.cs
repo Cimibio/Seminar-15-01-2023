@@ -40,3 +40,17 @@ else Console.Write("число НЕ является полиндромом");
 //}
 //if(i == newmod) Console.WriteLine("Число палиндром");
 //else Console.WriteLine("число не является палиндромом");
+
+//Console.Write("Ведите число: ");
+//int number = int.Parse(Console.ReadLine());
+//int result = 0;
+//int copy = number; // сохранем оригинальное число
+//while (copy > 0)
+//
+//{
+//    int last = copy % 10; //присваиваем переменной last значение последнего числа
+//    result = result % 10 + last; //формируется перевернутое число
+//    copy = copy / 10; // уменьшаем число на один знак справа
+//}
+//if(number == result) Console.WriteLine("Число палиндром");
+//else Console.WriteLine("число не является палиндромом");
